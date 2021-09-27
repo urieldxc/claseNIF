@@ -14,7 +14,7 @@ class NIF {
     }
 
     mostrar(){
-        return `${this._numero}-${this._letra.toUpperCase()}`;
+        return `NIF: ${this._numero}-${this._letra.toUpperCase()}`;
     };
 
     calcularLetra(){
